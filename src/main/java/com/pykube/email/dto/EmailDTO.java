@@ -2,10 +2,29 @@ package com.pykube.email.dto;
 
 import java.util.List;
 
-public class EmailDTO {
-
+public class EmailDTO { 
+	private String name;
+	private String username;
 	private List<String> toEmails;
 	private String type;
+	
+	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
 
 	public List<String> getToEmails() {
 		return toEmails;
